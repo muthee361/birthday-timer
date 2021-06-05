@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday countdown</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h4>Hey there, lets check your birthday countdown</h4>
+    <span>Enter your date of birth</span>
+    <form action="">
+        <input type="date" name="date" id="ddate" >  <br>  <br>    
+    
+         <button type="button" onclick="checkEntry()" name="check" id="checkdate" >Count</button>
+     
+        <button type="button" onclick="location.reload()">Reload</button>
+    </form>    
+    
+     <p id="demo"></p>
+    <h1>Birthday Countdown</h1>
+
+    <div class="container">
+        <div class="item-wrapper">
+            <p class="time" id="days">0</p>
+            <span>Days</span>
+        </div>
+
+        <div class="item-wrapper">
+            <p class="time" id="hours">0</p>
+            <span>Hours</span>
+        </div>
+
+        <div class="item-wrapper">
+            <p class="time" id="mins">0</p>
+            <span>Minutes</span>
+        </div>
+
+        <div class="item-wrapper">
+            <p class="time" id="sec">0</p>
+            <span>Seconds</span>
+        </div>
+    </div>
+    
+</body>
+<script type="text/javascript" src="script.js" defer></script>
+</html>
