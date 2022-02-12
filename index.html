@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Employee</h1>
+        <form id="employee-form">
+            <div class="elements">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" class="form-input">
+            </div>
+
+            <div class="elements">
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" class="form-input">
+            </div>
+
+            <div class="elements">
+                <label for="e-id">ID#</label><br>
+                <input type="text" id="e-id" class="form-input">
+            </div>
+
+            <div class="elements">
+                
+                <input type="Submit" value="Add" class="submit">
+            </div>
+        </form>
+        <table class="display-employees">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>ID</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="employee-list">
+
+            </tbody>
+        </table>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
